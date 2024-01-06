@@ -1,0 +1,1 @@
+import"./three.module-2hxVk-Lt.js";import{S as t}from"./sprites-gcX3GlTC.js";import"./CSS3DRenderer-cJY65BUY.js";document.addEventListener("DOMContentLoaded",function(){new t("uicollabo.png").animate()});

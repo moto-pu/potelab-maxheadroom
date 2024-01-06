@@ -14,6 +14,8 @@ export default defineConfig({
         index: 'index.html',
         index2: 'index2.html',
         periodic: 'periodic.html',
+        sprites: 'sprites.html',
+        sprites_uicollabo: 'sprites_uicollabo.html',
       },
     },
   },

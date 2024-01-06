@@ -1,6 +1,5 @@
 // original https://raw.githubusercontent.com/mrdoob/three.js/master/examples/css3d_periodictable.html
 import './periodic.css';
-import './@types/periodic.d.ts';
 import * as THREE from 'three';
 import TWEEN from 'three/addons/libs/tween.module.js';
 import { TrackballControls } from 'three/addons/controls/TrackballControls.js';
