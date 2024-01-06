@@ -13,6 +13,7 @@ export default defineConfig({
       input: {
         index: 'index.html',
         index2: 'index2.html',
+        periodic: 'periodic.html',
       },
     },
   },

@@ -1,0 +1,5 @@
+node_modules
+docs
+src/data2/
+package.json
+package-lock.json

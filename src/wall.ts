@@ -62,8 +62,6 @@ class Wall {
     this.camera.position.x = wallSize / 3;
     this.camera.position.y = wallSize / 3;
     this.camera.position.z = wallSize / 3;
-
-    this.animate = this.animate.bind(this);
   }
 
   makeWall(
@@ -113,7 +111,7 @@ class Wall {
     };
   }
 
-  animate(): void {
+  animate = (): void => {
     requestAnimationFrame(this.animate);
 
     if (this.animationFrames === 0) {
@@ -129,7 +127,7 @@ class Wall {
     this.animationFrames--;
 
     this.renderer.render(this.scene, this.camera);
-  }
+  };
 }
 
 export default Wall;
