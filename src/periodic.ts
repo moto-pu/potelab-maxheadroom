@@ -54,7 +54,7 @@ class Periodic {
 
       const details = document.createElement('div');
       details.className = 'details';
-      details.innerHTML = table[i + 1] + '<br>' + table[i + 2];
+      details.innerHTML = `${table[i + 1]}<br>${table[i + 2]}`;
       element.appendChild(details);
 
       const objectCSS = new CSS3DObject(element);
