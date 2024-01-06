@@ -51,13 +51,13 @@ class Wall {
       new THREE.Vector3(0, i, 0),
       new THREE.Vector3(0, i, wallSize * 2),
     ]);
-    const backWall = this.makeWall(wallSize, colors.right, (i) => [
+    const rightWall = this.makeWall(wallSize, colors.right, (i) => [
       new THREE.Vector3(0, i, 0),
       new THREE.Vector3(wallSize * 2, i, 0),
     ]);
     this.scene.add(floor);
     this.scene.add(leftWall);
-    this.scene.add(backWall);
+    this.scene.add(rightWall);
 
     this.camera.position.x = wallSize / 3;
     this.camera.position.y = wallSize / 3;
